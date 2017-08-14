@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    background-image:"https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+    background-image:https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg?w=940&h=650&auto=compress&cs=tinysrgb;
     background-repeat:no-repeat;
     margin-top: 75px;
 }
