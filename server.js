@@ -22,7 +22,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 var names=[];
-app.get('/rishi.html/submit', function (req, res) {
+app.get('/submit', function (req, res) {
   var name=req.query.name;
   names.push(name);
   res.send(JSON.stringify(names));
