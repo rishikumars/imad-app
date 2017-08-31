@@ -35,7 +35,7 @@ submit.onclick=function (){
     var name=nameinput.value;
    
     response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?name='+name,true);
-    
+    request.send(null);
     
 
 };
