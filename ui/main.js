@@ -8,7 +8,7 @@ function moveright(){
 element.onclick=function(){
   var interval=setInterval(moveright,100);
 };
-var submit=document.getElementById("button");
+var submit=document.getElementById("submitbt");
 submit.onclick=function(){
     var request=new XMLHttpRequest();
     request.onreadystatechange=function(){
