@@ -25,9 +25,8 @@ body {
 .img-medium {
     height: 200px;
 }
-form
-{
-    align:"center";
+.mid input{
+    width:100%;
 }
 
 
