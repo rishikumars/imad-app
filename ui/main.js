@@ -9,7 +9,7 @@ element.onclick=function(){
   var interval=setInterval(moveright,100);
 };
 var submit=document.getElementById("submitbt");
-submit.onclick=function(){
+submit.onclick=function (){
     var request=new XMLHttpRequest();
     request.onreadystatechange=function (){
         if(request.readystate==XMLHttpRequest.Done){
@@ -38,5 +38,5 @@ submit.onclick=function(){
     response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?name='+name,true);
     response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?age='+age,true);
     
-    request.semd(null);
+;
 };
