@@ -13,7 +13,7 @@ submit.onclick=function (){
     var request=new XMLHttpRequest();
     request.onreadystatechange=function (){
         if(request.readystate==XMLHttpRequest.Done){
-            if(request.status==200)
+            if(request.status==304)
             {
                 var names=request.responseText;
                
