@@ -27,12 +27,7 @@ app.get('/rishi.html/submit', function (req, res) {
   names.push(name);
   res.send(JSON.stringify(names));
 });
-var ages=[];
-app.get('/rishi.html/submit', function (req, res) {
-  var age=req.query.age;
-  ages.push(age);
-  res.send(JSON.stringify(ages));
-});
+
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
