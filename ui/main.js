@@ -16,13 +16,13 @@ submit.onclick=function (){
             if(request.status==200)
             {
                 var names=request.responseText;
-                var ages=request.responseText;
+               
                 names=JSON.parse(names);
-                ages=JSON.parse(ages);
+                
                 var list='';
                 for(var i=0;i<names.length;i++){
                     list +='<li>'+names[i]+'</li>';
-                    list +='<li>'+ages[i]+'</li>';
+                  
                     
                     
                 }
@@ -33,10 +33,9 @@ submit.onclick=function (){
     };
     var nameinput=document.getElementById("name");
     var name=nameinput.value;
-    var ageinput=document.getElementById("age");
-    var age=ageinput.value;
+   
     response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?name='+name,true);
-    response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?age='+age,true);
+    
     
 
 };
