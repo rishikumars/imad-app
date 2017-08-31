@@ -18,6 +18,10 @@ body {
     color:white;
 }
 
+.black {
+    font-size: 100%;
+    color:black;
+}
 .bold {
     font-weight: bold;
 }
