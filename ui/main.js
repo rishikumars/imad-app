@@ -5,7 +5,7 @@ function moveright(){
     marginLeft=marginLeft+10;
     element.style.marginLeft=marginLeft+'px';
 }
-element.onclick=function(){
+element.onclick=function (){
   var interval=setInterval(moveright,100);
 };
 var submit=document.getElementById("submitbtn");
