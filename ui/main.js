@@ -28,6 +28,6 @@ submit.onclick=function(){
     };
     var nameinput=document.getElementById("name");
     var name=nameinput.value;
-    response.open('GET','http://rishikumarsiva.imad.hasura-app.io/submit?name='+name,true);
+    response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?name='+name,true);
     request.semd(null);
 };
