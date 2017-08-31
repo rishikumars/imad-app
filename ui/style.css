@@ -2,9 +2,10 @@ body {
     font-family: sans-serif;
     background-color: white;
     background-repeat:no-repeat;
+     background-size:cover;
     height:100%;
     width:100%;
-    background-size:cover;
+   
     
     margin-top: 75px;
 }
