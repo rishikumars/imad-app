@@ -35,6 +35,8 @@ submit.onclick=function(){
     var name=nameinput.value;
     var ageinput=document.getElementById("age");
     var agee=ageinput.value;
-    response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?name=+name&age=+age',true);
+    response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?name='+name,true);
+    response.open('GET','http://rishikumarsiva.imad.hasura-app.io/rishi.html/submit?age='+age,true);
+    
     request.semd(null);
 };
