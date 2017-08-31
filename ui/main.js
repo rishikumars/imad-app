@@ -9,7 +9,7 @@ element.onclick=function(){
   var interval=setInterval(moveright,100);
 };
 var submit=document.getElementById("submitbt");
-submit.onclick=function (){
+submit.onclick=function(){
     var request=new XMLHttpRequest();
     request.onreadystatechange=function (){
         if(request.readystate==XMLHttpRequest.Done){
