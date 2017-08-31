@@ -21,6 +21,12 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
+var names[];
+app.get('/submit', function (req, res) {
+  var name=req.query.name;
+  names.push(name);
+  res.send(JSON.stringify(names));
+});
 
 
 app.get('/ui/madi.png', function (req, res) {
